@@ -9,6 +9,7 @@ function App() {
   const [todos, setTodos] = useState([]);
 
   // fetch
+  // axios
   return (
     <div>
       <CreateTodo></CreateTodo>
