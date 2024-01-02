@@ -8,6 +8,7 @@ import { Todos } from './components/Todo'
 function App() {
   const [todos, setTodos] = useState([]);
 
+  // fetch
   return (
     <div>
       <CreateTodo></CreateTodo>
