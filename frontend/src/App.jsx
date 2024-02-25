@@ -14,6 +14,7 @@ function App() {
     <div>
       <CreateTodo></CreateTodo>
       <Todos todos={todos}></Todos>
+      <todos />
     </div>
   )
 }

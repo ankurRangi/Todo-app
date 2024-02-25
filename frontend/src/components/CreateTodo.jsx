@@ -3,8 +3,8 @@ import { useState } from 'react';
 export function CreateTodo(){
     const [title, setTitle] = useState("");
     const [description, setDescription] = useState("");
-
     const [todos, setTodos] = useState([]);
+
     return <div>
         <input style={{
             margin:20,
@@ -42,6 +42,7 @@ export function CreateTodo(){
                 alert("Todo Added!");
             })
         }}>Add a todo</button>
+
 
         <button style={{
             marginLeft:55,
